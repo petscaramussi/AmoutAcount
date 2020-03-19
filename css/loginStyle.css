@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Questrial&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+.name h1{
+    font-size: 36px;
+    font-weight: 100;
+    color: #000;
+    font-family: 'Questrial', sans-serif;
+    margin-left: 27%;
+    margin-top: 0;
+
+}
+.name b{
+    font-family: 'Questrial', sans-serif;
+    
+}
+
+.logo img{
+    width: 30%;
+    height: 40%;
+    position: relative;
+    margin-left: 20%;
+}
+
+.box{
+    width:30%;
+    height: 60%;
+    padding-top: 20%;
+    position: fixed;
+    top: 0;
+    left: 70%;
+    background: #007BFF;
+    text-align: center;
+}
+
+.box input{
+    background:none;
+    border: 0;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 18px;
+    border: 2px solid #fff;
+    padding: 14px 10px;
+    width:250px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+}
+
+.box input:hover{
+    background: #005eff;
+}
+
+.box h3{
+    color: #fff;
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 6px solid;
+    margin-left: 80px;
+    margin-top: -80px;
+    width: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.box input[type="submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+
+}
+.botao a{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    width: 10%;
+    border:0;
+    background: #8b008b;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.botao a:hover{
+    color: #8b008b;
+    border: 2px solid #8b008b;
+    background: none;
+}
+.box input[type = "submit"]:hover{
+    background: #2ecc71;
+  }
+
+.registrar{
+    position: absolute;
+    top:50%;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+ }
+  
+ :-moz-placeholder { /* Firefox 18- */
+    color:#fff;  
+ }
+  
+ ::-moz-placeholder {  /* Firefox 19+ */
+    color:#fff;  
+ }
+  
+ :-ms-input-placeholder {  
+    color: #fff;  
+ }
